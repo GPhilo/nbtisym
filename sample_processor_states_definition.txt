@@ -1,0 +1,25 @@
+# Cancelletto per i commenti
+##################################################
+# Per definire un nuovo stato, copiare la sezione
+# sottostante, aggiungere i relativi valori dopo 
+# i due punti e togliere il commento.
+#
+#ID: 
+#VDD: 
+#FREQUENCY: 
+#DUTY-CYCLE: 
+#-------------------------------------------------
+# Note sui parametri:
+# - ID Può essere una qualsiasi stringa di caratteri 
+#   alfanumerici o underscore (case-sensitive, no spazi)
+# - Duty-CYCLE deve essere un numero compreso fra 0 e 1
+# - VDD può essere un qualsiasi valore decimale in Volt
+# - FREQUENCY può essere un qualsiasi valore decimale
+#   in Hz
+##################################################
+
+# Sample state definition:
+ID: A
+VDD: 1.2
+FREQUENCY: 1000000000
+DUTY-CYCLE: 0.5
